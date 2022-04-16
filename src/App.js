@@ -1,8 +1,11 @@
+import Intro from './components/intro/Intro';
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div>
+      <Intro />
+    </div>
+  );
+};
 
-export default App
+export default App;

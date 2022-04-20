@@ -7,12 +7,12 @@ export const products = [
   {
     id: 2,
     img: 'https://cdn.sanity.io/images/zxpjezk0/production/92b0970e96c93b75124ff92bf9298b7668500016-1890x2957.png',
-    link: 'https://realstate-app-two.vercel.app/',
+    link: 'https://pannu-realstate.vercel.app/',
   },
   {
     id: 3,
     img: 'https://cdn.sanity.io/images/zxpjezk0/production/be62fbd9c014a05ce70cad9ebf5f21bc2014e755-1892x7383.png',
-    link: 'https://pannu-google.netlify.app/news',
+    link: 'https://pannu-google.netlify.app/search',
   },
   {
     id: 4,

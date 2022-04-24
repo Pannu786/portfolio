@@ -2,11 +2,11 @@ import './contact.css';
 import Phone from '../../img/phone.png';
 import Email from '../../img/email.png';
 import Address from '../../img/address.png';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-
 const Contact = () => {
   const formRef = useRef();
+  const [done, setDone] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -20,6 +20,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          setDone(true);
         },
         (error) => {
           console.log(error.text);
@@ -57,8 +58,14 @@ const Contact = () => {
             <input type='text' placeholder='Name' name='user_name' />
             <input type='text' placeholder='Subjects' name='user_subject' />
             <input type='text' placeholder='Email' name='user_email' />
-            <textarea rows='5' placeholder='' />
+            <textarea
+              rows='5'
+              placeholder=''
+              Placeholder='Message'
+              name='message'
+            />
             <button type='submit'>Submit</button>
+            {done && 'Thank you for contacting me 😀'}
           </form>
         </div>
       </div>

@@ -16,10 +16,9 @@ const Intro = () => {
             </div>
           </div>
           <p className='i-desc'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perspiciatis voluptatum inventore fugiat quia beatae consequatur,
-            maxime modi cupiditate iusto vitae, quasi deleniti odit sint qui
-            vero excepturi delectus animi dicta.
+            I design and develop services for customers of all sizes,
+            specializing in creating stylish, modern websites, web services and
+            online stores.
           </p>
         </div>
         <svg

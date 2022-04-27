@@ -41,7 +41,7 @@ const Contact = () => {
           <div className='c-info'>
             <div className='c-info-item'>
               <img src={Phone} alt='' className='c-icon' />
-              +91 9876 543 210
+              +64 210717867
             </div>
             <div className='c-info-item'>
               <img src={Email} alt='' className='c-icon' />
@@ -49,14 +49,13 @@ const Contact = () => {
             </div>
             <div className='c-info-item'>
               <img src={Address} alt='' className='c-icon' />
-              Walls st, Wellington, NZ
+              15 Edgeware Rd, Wilton St, Wellington
             </div>
           </div>
         </div>
         <div className='c-right'>
           <p className='c-desc'>
-            <b>What’s your story?</b> Get in touch. Always available for
-            freelancing if the right project comes along. me.
+            <b>What’s your story?</b> Get in touch.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input
